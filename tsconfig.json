@@ -20,8 +20,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@api/*": ["./src/api/*"],
+      "@app/*": ["./src/app/*"],
+      "@config/*": ["./src/config/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
+    },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

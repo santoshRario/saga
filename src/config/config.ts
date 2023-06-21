@@ -1,0 +1,7 @@
+const config = {
+  SPACE_ID: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
+  ENVIRONMENT_ID: process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT,
+  CMS_ACCESS_TOKEN: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN,
+}
+
+export default config
