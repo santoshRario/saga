@@ -31,7 +31,7 @@ async function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between py-24 mx-auto w-96">
       {blogs.map((b: Blog,i: number) => {
         return (
-          <div className='pb-12'>
+          <div className='pb-12' key={b.id}>
             <Link className='self-start' href={`/blog/${b.sys.id}`}>
               <h1 className='text-2xl'>{b.title}</h1>
             </Link>
